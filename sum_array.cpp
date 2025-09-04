@@ -2,10 +2,11 @@
 #include <vector>
 using namespace std;
 
-int sumArray(const vector<int>& arr) {
-    // TODO: complete the function as per instructions
-    
-}
+int sumArray(const vector<int>& arr) { int sum = 0;
+    for (int val : arr) {
+        sum += val;
+    }
+    return  sum;}
 
 int main() {
     int n; cin >> n;
